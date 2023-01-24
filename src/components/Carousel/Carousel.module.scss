@@ -1,0 +1,12 @@
+@import '../../styles/settings.scss';
+
+.carouselContainer_img {
+	position: relative;
+	z-index: 1;
+	width: 100vw;
+}
+
+.carouselContainer {
+	height: 100vh;
+	overflow: hidden;
+}
