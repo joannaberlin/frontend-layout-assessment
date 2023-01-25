@@ -2,10 +2,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
-import styles from './NavBar.module.scss';
-import SocialMediaCircle from '../SocialMediaCircle/SocialMediaCircle';
+import styles from './NavBarWhite.module.scss';
+import SocialMediaCircleWhite from '../SocialMediaCircle/SocialMediaCircleWhite';
 
-const NavBar = () => {
+const NavBarWhite = () => {
 	return (
 		<div className={styles.navbar_container}>
 			<Navbar bg='transparent' expand='lg' className={styles.navbar}>
@@ -56,10 +56,10 @@ const NavBar = () => {
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
-				<SocialMediaCircle />
+				<SocialMediaCircleWhite />
 			</Navbar>
 		</div>
 	);
 };
 
-export default NavBar;
+export default NavBarWhite;

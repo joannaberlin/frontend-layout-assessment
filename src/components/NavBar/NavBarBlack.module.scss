@@ -8,20 +8,20 @@
 
 .navbar {
 	position: absolute;
-	z-index: 10;
+	z-index: 100;
 	font-size: $base-size * 2;
 }
 
 .navbar_item {
-	color: $color-light;
+	color: $color-dark;
 	margin-left: 20px;
 }
 
 .navbar_toggle {
-	background-color: $color-light;
+	background-color: $color-dark;
 }
 
-.logo_white {
+.logo_black {
 	width: 170px;
 	margin-right: 300px;
 }
@@ -31,7 +31,7 @@
 		font-size: $base-size * 1.5;
 	}
 
-	.logo_white {
+	.logo_black {
 		width: 80px;
 		margin-right: 40px;
 	}
