@@ -22,7 +22,7 @@ const Hero01 = () => {
 	return (
 		<div className={styles.carouselContainer}>
 			<Carousel
-				interval={5000}
+				interval={4000}
 				controls={false}
 				indicators={false}
 				activeIndex={index}

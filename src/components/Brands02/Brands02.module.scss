@@ -1,0 +1,64 @@
+@import '../../styles/settings.scss';
+
+.firstRow_wrapper {
+	display: flex;
+	overflow: hidden;
+	padding-bottom: 4px;
+}
+
+.secondRow_wrapper,
+.thirdRow_wrapper {
+	display: flex;
+	overflow: hidden;
+}
+
+.title_wrapper {
+	width: 33.3%;
+}
+
+.img_wrapper {
+	width: 66.6%;
+	padding-left: 2px;
+
+	img {
+		object-fit: fill;
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+.imgLast_wrapper {
+	width: 66.6%;
+	padding-right: 2px;
+
+	img {
+		object-fit: fill;
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+.imgSmallFirst_wrapper {
+	width: 33.3%;
+	padding-right: 2px;
+}
+
+.imgSmallLast_wrapper {
+	width: 33.3%;
+	padding-left: 2px;
+}
+
+.imgSmall_wrapper {
+	width: 33.3%;
+	// padding-right: 2px;
+}
+
+.imgDesign {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.imgSoPure {
+	max-height: 100%;
+	max-width: 100%;
+}

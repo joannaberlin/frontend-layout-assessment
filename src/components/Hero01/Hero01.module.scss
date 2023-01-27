@@ -141,3 +141,21 @@
 	margin-top: -7px;
 	margin-left: 105px;
 }
+
+@media screen and (max-width: 992px) {
+	.controlsContainer {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.btnWhite {
+		top: 56%;
+		left: 27%;
+	}
+
+	.btn {
+		top: 56%;
+		left: 27%;
+	}
+}
