@@ -1,0 +1,31 @@
+@import '../../styles/settings.scss';
+
+.textWithButton_wrapper {
+	display: flex;
+	flex-direction: row;
+	color: $color-light;
+}
+
+.titleBtn_wrapper {
+	padding-top: 5px;
+}
+
+.textWithButton_wrapper hr {
+	width: 15%;
+	opacity: 100%;
+}
+
+.textWithButton_wrapper h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 1.6 * $base-size;
+	padding: 0 30px;
+}
+
+.textWithButton_wrapper button {
+	border: none;
+	background-color: transparent;
+	font-weight: 600;
+	font-size: 1.5 * $base-size;
+	color: $color-light;
+}
