@@ -1,5 +1,4 @@
 import styles from './Hero01.module.scss';
-// import Image from 'react-bootstrap/Image';
 import NavBarWhite from '../NavBar/NavBarWhite';
 import NavBarBlack from '../NavBar/NavBarBlack';
 import Carousel from 'react-bootstrap/Carousel';
