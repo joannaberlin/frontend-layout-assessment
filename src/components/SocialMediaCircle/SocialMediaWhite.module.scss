@@ -1,7 +1,7 @@
 @import '../../styles/settings.scss';
 
 .icons {
-	margin-left: 65px;
+	margin-left: 35px;
 }
 
 .icons_fb {
@@ -29,7 +29,7 @@
 	display: flex;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	.icons {
 		visibility: hidden;
 	}

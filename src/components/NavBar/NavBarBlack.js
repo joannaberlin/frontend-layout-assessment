@@ -19,7 +19,10 @@ const NavBarBlack = () => {
 					aria-controls='basic-navbar-nav'
 					className={styles.navbar_toggle}
 				/>
-				<Navbar.Collapse id='basic-navbar-nav'>
+				<Navbar.Collapse
+					id='basic-navbar-nav'
+					className={styles.categories_container}
+				>
 					<Nav className='me-auto'>
 						<Nav.Link href='#home' className={styles.navbar_item}>
 							Nowosci
@@ -27,7 +30,7 @@ const NavBarBlack = () => {
 						<NavDropdown
 							title={<span className='text-black my-auto'>Produkty</span>}
 							id='basic-nav-dropdown'
-							className={styles.navbar_item}
+							className={styles.dropdown_container}
 						>
 							<NavDropdown.Item href='#action/3.1'>Stylizacja</NavDropdown.Item>
 							<NavDropdown.Item href='#action/3.2'>

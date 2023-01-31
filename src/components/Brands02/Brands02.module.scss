@@ -87,10 +87,6 @@
 	}
 }
 
-.imgSmall_wrapper {
-	width: 33.3%;
-}
-
 .imgDesign {
 	max-height: 100%;
 	max-width: 100%;
@@ -152,4 +148,176 @@
 .textWithBtn_imgSmall_wrapper {
 	display: inline;
 	z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+	.imgLast_wrapper {
+		width: 100%;
+		margin-bottom: 4px;
+	}
+
+	.imgSmallFirst_wrapper {
+		width: 50%;
+		margin-bottom: 4px;
+	}
+
+	.img_wrapper {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.imgSmallLast_wrapper {
+		width: 50%;
+		padding-left: 0;
+	}
+
+	.textWithBtn_wrapper {
+		width: auto;
+	}
+
+	.textWithBtn_thirdRow_wrapper {
+		width: auto;
+	}
+
+	.firstRow_wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.thirdRow_wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.text_wrapper {
+		margin-top: 20%;
+		margin-left: 30%;
+
+		div {
+			margin-left: 0;
+			z-index: 100;
+		}
+	}
+
+	.img_titleText {
+		left: 25%;
+		top: 30%;
+	}
+
+	.textWithBtn_wrapper {
+		left: 15%;
+		top: 60%;
+		width: 300px;
+		margin-top: 20px;
+
+		hr {
+			visibility: hidden;
+		}
+	}
+
+	.text_wrapper {
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-bottom: 10%;
+
+		div {
+			margin-left: 0;
+			z-index: 100;
+		}
+	}
+
+	.text_wrapper h2 {
+		font-size: 6 * $base-size;
+	}
+
+	.imgSmall_titleText_wrapper {
+		padding-top: 10%;
+
+		hr {
+			visibility: hidden;
+		}
+	}
+
+	.textWithBtn_imgSmall_wrapper {
+		width: 300px;
+		margin-left: -60px;
+	}
+
+	.imgLast_titleText_wrapper {
+		padding-top: 12%;
+		margin-left: 15%;
+	}
+
+	.textWithBtn_thirdRow_wrapper {
+		padding-top: 22%;
+		padding-left: 15%;
+	}
+
+	.strikeThrough::after {
+		width: 50%;
+	}
+
+	.textWithBtn_thirdRow_wrapper {
+		width: 300px;
+		padding-top: 30%;
+		padding-left: 0;
+
+		hr {
+			visibility: hidden;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.text_wrapper {
+		margin-top: 20%;
+		margin-left: 30%;
+
+		div {
+			margin-left: 0;
+			z-index: 100;
+		}
+	}
+
+	.img_titleText {
+		left: 25%;
+		top: 30%;
+	}
+
+	.textWithBtn_wrapper {
+		left: 30%;
+		top: 60%;
+	}
+
+	.text_wrapper h2 {
+		font-size: 6 * $base-size;
+	}
+
+	.imgSmall_titleText_wrapper {
+		padding-top: 10%;
+	}
+
+	.imgLast_titleText_wrapper {
+		padding-top: 12%;
+		margin-left: 15%;
+	}
+
+	.textWithBtn_thirdRow_wrapper {
+		padding-top: 22%;
+		padding-left: 15%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.textWithBtn_wrapper {
+		width: 300px;
+	}
+
+	.imgSmall_titleText_wrapper {
+		padding-top: 20%;
+	}
+
+	.textWithBtn_thirdRow_wrapper {
+		width: 75%;
+	}
 }

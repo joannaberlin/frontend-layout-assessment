@@ -30,9 +30,6 @@ const Hero01 = () => {
 				<Carousel.Item>
 					<NavBarBlack />
 					<CaptionSlideBlack />
-					<button onClick={(e) => handleClick(e, 1)} className={styles.btn}>
-						&gt;
-					</button>
 					<div className={styles.controlsContainer}>
 						<div className={styles.btnSimple_container}>
 							<button
@@ -79,12 +76,6 @@ const Hero01 = () => {
 				<Carousel.Item>
 					<NavBarWhite />
 					<CaptionSlideWhite />
-					<button
-						onClick={(e) => handleClick(e, 1)}
-						className={styles.btnWhite}
-					>
-						&gt;
-					</button>
 					<div className={styles.controlsContainer}>
 						<div className={styles.btnSimple_container}>
 							<button

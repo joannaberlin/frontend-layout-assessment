@@ -10,6 +10,7 @@ const CaptionSlideBlack = () => {
 				Keune <span>design</span>
 			</h4>
 			<hr></hr>
+			<button className={styles.btn}>&gt;</button>
 		</div>
 	);
 };
